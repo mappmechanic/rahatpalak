@@ -20,3 +20,14 @@ header
   height: 19px;
   margin-top:-6px;
 }
+
+nav
+{
+ margin: 0;
+ text-align: center;   
+}
+
+nav ul li
+{
+ list-style: none;   
+}

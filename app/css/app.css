@@ -31,8 +31,28 @@ body
     background-color: maroon !important; 
 }
 
-@media (min-width: 768px) {
+.container > .central
+{
+    background-color: rgba(54, 1, 1, 0.5);
+    border: rgba(230, 174, 36,0.5) 1px solid;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 30px #292929;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    color: #e6ae24;
+}
 
+.centered
+{
+    text-align: center;
+}
+
+/** Media Queries */
+
+@media (min-width: 768px) {
     .navbar-nav
     {
         float: none !important;

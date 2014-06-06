@@ -1,0 +1,42 @@
+/* app css stylesheet */
+
+body
+{
+    background: url('../img/bg.jpg');   
+    margin:0;
+    padding: 0;
+}
+
+.hangingPattern
+{
+  background: url('../img/hanging.png') repeat-x bottom;
+  width:100%;
+  height: 19px;
+  padding-top: 72px;
+}
+
+.navbar-custom
+{
+    background-color: #e6ae24;
+}
+
+.navbar-nav > li a
+{
+    color: maroon !important;
+}
+
+.navbar-nav > li a:hover
+{
+    color:white !important;
+    background-color: maroon !important; 
+}
+
+@media (min-width: 768px) {
+
+    .navbar-nav
+    {
+        float: none !important;
+        width: 650px;
+        margin: 0 auto !important;
+    }
+}

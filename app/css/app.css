@@ -77,6 +77,29 @@ body
  font-size: 25px; 
 }
 
+.familyPics img
+{
+ height:60x;
+ width:60px;
+}
+
+.familyPics .row
+{
+ font-size: 11px;  
+ text-align: center;
+}
+
+.familyPics p
+{
+ padding-top: 5px;   
+}
+
+.familyPics h5
+{
+padding-bottom: 5px;
+border-bottom: 1px solid  #e6ae24;  
+}
+
 /** Media Queries */
 
 @media (min-width: 200px) and (max-width:450px) {

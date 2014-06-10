@@ -34,13 +34,13 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#/view1">HOME</a></li>
-            <li><a href="#/view2">OUR STORY</a></li>
-              <li><a href="#/view1">EVENTS</a></li>
-            <li><a href="#/view2">FAMILY & FRIENDS</a></li>
-              <li><a href="#/view1">BLESSINGS</a></li>
-            <li><a href="#/view2">GALLERY</a></li>
-              <li><a href="#/view2">RSVP</a></li>
+            <li><a href="#/home">HOME</a></li>
+            <li><a href="#/story">OUR STORY</a></li>
+              <li><a href="#/events">EVENTS</a></li>
+            <li><a href="#/familyfriends">FAMILY & FRIENDS</a></li>
+              <li><a href="#/blessings">BLESSINGS</a></li>
+            <li><a href="#/gallery">GALLERY</a></li>
+              <li><a href="#/rsvp">RSVP</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -49,32 +49,8 @@
     </div>
     <div class="container">
         <div class="central">
-            <div class="row"></div>
-            <div class="row">
-                <div class="col-md-12">
-                <img src="img/palak-rahat.png" class="img-responsive" alt="Responsive image"/>
-                    </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5 col-sm-5 col-xs-5 centered">
-                    <h2><em>Rahat</em></h2>
-                    <small>
-                    History repeating itself, a novice getting prepared for a REAL life adventure. Born 24 years ago and transforming into a dedicated husband now. 
-                    </small>
-                </div>
-                <div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 centered">
-                    <h2><em>Palak</em></h2>
-                    <small>
-                    A beautiful angel with dreams of her prince in mind, eagerly waiting to take her away into a dreamland full of joy and delight.
-                    </small>
-                </div>
-            </div>
-            <br>
-            <br>
-        </div>
-        
-        <div class="dateBox">
-            
+           <div ng-view>
+           </div>
         </div>
         
     </div><!-- /.container -->

@@ -39,17 +39,24 @@ body
     border: rgba(230, 174, 36,0.5) 1px solid;
     width: 70%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
     box-shadow: 0px 0px 30px #292929;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 40px;
+    padding-top: 20px;
     color: #e6ae24;
 }
 
 .centered
 {
     text-align: center;
+}
+
+.central h2
+{
+ font-family: arizoniaregular;
+ font-weight: bold;
+ font-size: 40px;
 }
 
 /** Media Queries */

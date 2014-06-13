@@ -1,0 +1,53 @@
+{
+ "groom":
+      [
+        { "name": "B.D. Khanna", "relation": "Dadu", "picUrl": "b-gf.png"},
+        { "name": "Tripta Khanna", "relation": "Dadi", "picUrl": "b-gm.png"},
+        { "name": "J.P. Mehra", "relation": "Nanu", "picUrl": "b-mgf.png"},
+        { "name": "Kamlesh Mehra", "relation": "Nani", "picUrl": "b-mgm.png"},
+        { "name": "Rajesh Khanna", "relation": "Papa", "picUrl": "b-f.png"},
+        { "name": "Sheetal Khanna", "relation": "Mama", "picUrl": "b-m.png"},
+        { "name": "Raman Mehra", "relation": "Jiju #1", "picUrl": "ramanjj.png"},
+        { "name": "Sunita Mehra", "relation": "Bua #1", "picUrl": "sunita.png"},
+        { "name": "Ashok Jolly", "relation": "Jiju #2", "picUrl": "ashokjj.png"},
+        { "name": "Kiran Jolly", "relation": "Bua #2", "picUrl": "naya.png"},
+        { "name": "Anil Mehra", "relation": "Jiju #3", "picUrl": "anil.png"},
+        { "name": "Vandana Mehra", "relation": "Bua #3", "picUrl": "munna.png"},
+        { "name": "Ajay Khanna", "relation": "Mausa Ji", "picUrl": "ajaym.png"},
+        { "name": "Veenu Khanna", "relation": "Massi Ji", "picUrl": "massi.png"},
+        { "name": "Varun Mehra", "relation": "Mamu", "picUrl": "mamu.png"},
+        { "name": "Nandita Mehra", "relation": "Mami", "picUrl": "mami.png"},
+        { "name": "Palak Sahil Khanna", "relation": "Didi Jiju", "picUrl": "palaksahil.png"},
+        { "name": "Satwik Khanna", "relation": "Naughty Bro", "picUrl": "satwik.png"},
+        { "name": "Niti Jagyjot", "relation": "Param Sahiba", "picUrl": "nitijaggi.png"},
+        { "name": "Nidhi Amit", "relation": "Pia", "picUrl": "nidhiamit.png"},
+        { "name": "Danish Sania", "relation": "Bhaiya Bhabhi", "picUrl": "saniyadanish.png"},
+        { "name": "Ankit Prachi", "relation": "Bhaiya Bhabhi", "picUrl": "prachiankit.png"},
+        { "name": "Mehak Anshul", "relation": "Didi Jiju", "picUrl": "mehakanshul.png"},
+        { "name": "Rahil Sajal", "relation": "Bhai Bandhu", "picUrl": "rahilsajal.png"},
+        { "name": "Chaitanya Khanna", "relation": "Busy Bhai", "picUrl": "chintu.png"},
+        { "name": "Vishnu Yatharth", "relation": "Busy Bhai", "picUrl": "vishnuparthi.png"},
+        { "name": "Pratyaksh", "relation": "Gugu", "picUrl": "gugu.png"},
+        { "name": "Samaira", "relation": "Princess", "picUrl": "samu.png"},
+        { "name": "Sanghvi", "relation": "Cutie Pie", "picUrl": "sangu.png"}
+        
+          
+        
+      ],
+ "bride":
+      [
+        { "name": "P.L. Kapoor", "relation": "Dadu", "picUrl": "dadu.png"},
+        { "name": "Vijay Rani", "relation": "Dadi", "picUrl": "dadi.png"},
+        { "name": "Deepak Kapoor", "relation": "Papa", "picUrl": "papa.png"},
+        { "name": "Deepika Kapoor", "relation": "Mama", "picUrl": "mama.png"},
+        { "name": "Vipan Mehra", "relation": "Jiju", "picUrl": "jiju.png"},
+        { "name": "Jyoti Mehra", "relation": "Bua", "picUrl": "bua.png"},
+        { "name": "Rajesh", "relation": "Mamu", "picUrl": "rajesh.png"},
+        { "name": "Raju", "relation": "Mamu", "picUrl": "raju.png"},
+        { "name": "Varsha Vikas", "relation": "Didi Jiju", "picUrl": "varshavikas.png"},
+        { "name": "Ishaan Kapoor", "relation": "Big Brother", "picUrl": "ishaan.png"},
+        { "name": "Vibhu Mehra", "relation": "Big Brother", "picUrl": "vibhu.png"}
+          
+        
+      ]
+}

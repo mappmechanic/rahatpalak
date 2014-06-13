@@ -1,5 +1,74 @@
 <h2>RSVP</h2>
 <p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
+  For Any Problems or Requests, Please reach us on following contact numbers:<br><br>
+  <strong>Rajesh Khanna - +91-9815022043</strong><br>
+  <strong>Rahat Khanna - +91-8860137755</strong><br>
+  <strong>Satwik Khanna - +91-7837203802</strong><br>
 </p>
+<h4>Let us know when & how are you ariving in Amritsar :</h4>
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" ng-model="name" id="name" placeholder="Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="contact" class="col-sm-2 control-label">Contact No.</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" ng-model="contact" id="contact" placeholder="Contact No.">
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="arrivingBy" class="col-sm-2 control-label">Arriving By</label>
+    <div class="col-sm-10">
+      <select ng-model="arrivingBy" id="arrivingBy" class="form-control">
+          <option>Select</option>
+          <option value="train">By Train</option>
+          <option value="air">By Air (Flight)</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="noOfG" class="col-sm-2 control-label">No of Guests</label>
+    <div class="col-sm-10">
+      <select id="noOfG" ng-model="noOfG" class="form-control">
+          <option>Select</option>
+          <option ng-repeat="n in [1,2,3,4,5,6,7,8]" value="{{ n }}">
+              {{n}}
+          </option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="ftInfo" class="col-sm-2 control-label">Flight/Train Info</label>
+    <div class="col-sm-10">
+      <input type="text" ng-model="ftInfo" class="form-control" id="ftInfo" placeholder="Flight/Train Info">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="date" class="col-sm-2 control-label">Date</label>
+    <div class="col-sm-10">
+     <select ng-model="date" id="date" class="form-control">
+          <option>Select</option>
+          <option value="3sep">3rd Sep</option>
+          <option value="4sep">4th Sep</option>
+          <option value="5sep">5th Sep</option>
+          <option value="6sep">6th Sep</option>
+          <option value="7sep">7th Sep</option>
+      </select>
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="blessings" class="col-sm-2 control-label">Blessings for Wedding Couple</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" rows="3">{{ blessings }}</textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit Information</button>
+    </div>
+  </div>
+</form>
+<br><br>

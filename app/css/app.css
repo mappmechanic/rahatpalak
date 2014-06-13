@@ -75,12 +75,13 @@ body
 .date
 {
  font-size: 25px; 
+ font-weight: bold;
 }
 
 .familyPics img
 {
- height:60x;
- width:60px;
+ height:100x;
+ width:100px;
 }
 
 .familyPics .row
@@ -112,10 +113,14 @@ border-bottom: 1px solid  #e6ae24;
     .central h2
     {  font-size: 25px !important;  }
     
+    .central h4
+    {  font-size: 14px !important;  }
+    
     .container > .central
     {
      width: 95%;   
     }
+
 }
 
 @media (min-width: 768px) {
@@ -128,7 +133,11 @@ border-bottom: 1px solid  #e6ae24;
 }
 
 
-
+.galleria
+{ 
+    width: 100%; 
+    height: 460px;
+}
 
 /* Custom Fonts */
 
@@ -154,6 +163,11 @@ border-bottom: 1px solid  #e6ae24;
     font-weight: normal;
     font-style: normal;
 
+}
+
+body input
+{
+ color:#000 !important;   
 }
 
 /* CSS For Responsive Youtube Video */

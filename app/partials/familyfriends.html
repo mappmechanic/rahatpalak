@@ -1,27 +1,20 @@
 <h2>Family & Friends</h2>
+<h4 class="centered">An Extended Invitation from all the Family Members to You</h4>
 <div class="row familyPics">
  <h5>Groom's Side</h5>
     <div class="row">
-      <div class="col-md-3 column">
-        <img src="http://www.mycomeup.com/sites/all/themes/mcu/images/user_blank.png" class="img-rounded"><br>
-        <p>Banarsi Das Khanna,<br>
-          Grandfather</p>
+      <div ng-repeat="person in ffData.groom" class="col-md-2 col-sm-3 col-xs-6 column">
+        <img src="img\ff\{{ person.picUrl }}" class="img-rounded"><br>
+        <p>{{ person.name }},<br>
+          {{ person.relation }}</p>
       </div>
     </div>
  <h5>Bride's Side</h5>
     <div class="row">
-      <div class="col-md-3 column">
-        <img src="http://www.mycomeup.com/sites/all/themes/mcu/images/user_blank.png" class="img-rounded"><br>
-        <p>Banarsi Das Khanna,<br>
-          Grandfather</p>
-      </div>
-    </div>
- <h5>Friends</h5>
-    <div class="row">
-      <div class="col-md-3 column">
-        <img src="http://www.mycomeup.com/sites/all/themes/mcu/images/user_blank.png" class="img-rounded"><br>
-        <p>Banarsi Das Khanna,<br>
-          Grandfather</p>
-      </div>
+       <div ng-repeat="person in ffData.bride" class="col-md-2 col-sm-3 col-xs-6 column">
+        <img src="img\ff\{{ person.picUrl }}" class="img-rounded"><br>
+        <p>{{ person.name }},<br>
+          {{ person.relation }}</p>
+       </div>
     </div>
 </div>

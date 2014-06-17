@@ -69,7 +69,7 @@ body
  padding: 3px;
  text-align: center;
  font-size: 16px;
- color: maroon;
+ color: #800000;
 }
 
 .date
@@ -169,6 +169,17 @@ body input
 {
  color:#000 !important;   
 }
+
+.blessingsWall
+{
+}
+
+.navbar-toggle
+{
+ background: url('../img/menu.png') !important; 
+ padding: 9px 3px !important;
+}
+
 
 /* CSS For Responsive Youtube Video */
 

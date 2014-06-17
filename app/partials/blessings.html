@@ -1,5 +1,36 @@
 <h2>Blessings Wall</h2>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<button ng-show="hide" ng-click="hide=false" class="btn btn-default">Click to Send Your Blessings</button>
+<form ng-hide="hide" class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">{{ formDone }}Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" ng-model="name" id="name" placeholder="Name">
+    
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="blessings" class="col-sm-2 control-label">Blessings for Wedding Couple</label>
+    <div class="col-sm-10">
+      <textarea ng-model="blessingText" class="form-control" rows="3"></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" ng-click="submitBlessing()" class="btn btn-default">Submit</button> <button class="btn btn-default" ng-click="hide=true">Hide</button> <img src="img/ajax-loader.gif" ng-show="loaderShow">
+    </div>
+  </div>
+</form>
+<br><br>
+<h4 ng-show="submitSuccess">Thanks for submitting the Info. We look forward to an amazing time with you at the wedding.
+</h4>
+
+<div ng-show="loadShow" class="centered">
+    <img class="centered" src="img/bload.gif">
+</div>
+<div class="blessingsWall" ng-hide="loadShow">
+    <blockquote ng-repeat="b in blessings">
+      <p>{{ b.get("text"); }}</p>
+      <footer>{{ b.get("name"); }}</footer>
+    </blockquote>
+</div>
+<br><br>

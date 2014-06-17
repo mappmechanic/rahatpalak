@@ -7,7 +7,8 @@ angular.module('myApp', [
   'myApp.filters',
   'myApp.services',
   'myApp.directives',
-  'myApp.controllers'
+  'myApp.controllers',
+  'ngAnimate'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider
@@ -20,4 +21,12 @@ config(['$routeProvider', function($routeProvider) {
   .when('/rsvp', {templateUrl: 'partials/rsvp.html', controller: 'RsvpCtrl'});
     
   $routeProvider.otherwise({redirectTo: '/home'});
+ 
+    $(".navbar-toggle").click(function(test){
+       $(".collapse").toggle();
+    });
+    
+    $(".navbar a").click(function(test) {
+        $(".collapse").toggle();
+    });
 }]);
